@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- Declares HTML5 -->
+
+<html lang="en">
+<!-- Starts the HTML document -->
+
+<head>
+    <!-- Page metadata -->
+
+    <meta charset="UTF-8">
+    <!-- Character encoding -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive layout -->
+
+    <title>Register</title>
+    <!-- Browser tab title -->
+
+    <link rel="stylesheet" href="register.css">
+    <!-- Connects registration CSS -->
+
+</head>
+
+<body>
+    <!-- Visible page content -->
+
+    <div class="register-container">
+        <!-- Registration form container -->
+
+        <h1>Register</h1>
+        <!-- Page heading -->
+
+        <p>Create your account</p>
+        <!-- Description -->
+
+        <form id="registerForm">
+            <!-- Form with an ID that JavaScript can find -->
+
+            <label for="name">Name</label>
+            <!-- Label for name -->
+
+            <input type="text" id="name" placeholder="Enter your name">
+            <!-- Input where the user enters their name -->
+
+            <label for="email">Email</label>
+            <!-- Label for email -->
+
+            <input type="email" id="email" placeholder="Enter your email">
+            <!-- Input where the user enters their email -->
+
+            <label for="age">Age</label>
+            <!-- Label for age -->
+
+            <input type="number" id="age" placeholder="Enter your age">
+            <!-- Input where the user enters their age -->
+
+            <label for="password">Password</label>
+            <!-- Label for password -->
+
+            <input type="password" id="password" placeholder="Enter your password">
+            <!-- Password input -->
+
+            <label for="confirmPassword">Confirm Password</label>
+            <!-- Label for confirmation password -->
+
+            <input type="password" id="confirmPassword" placeholder="Confirm your password">
+            <!-- Confirmation password -->
+
+            <button type="submit">Register</button>
+            <!-- Button that submits the form -->
+
+        </form>
+
+        <p id="message"></p>
+        <!-- JavaScript will display success/error messages here -->
+
+        <a href="../login/login.html">Already have an account? Login</a>
+        <!-- Link to the login page -->
+
+    </div>
+
+    <script src="../js/auth.js"></script>
+    <!-- Loads the common authentication functions -->
+
+    <script src="register.js"></script>
+    <!-- Loads registration-specific JavaScript -->
+
+</body>
+
+</html>
