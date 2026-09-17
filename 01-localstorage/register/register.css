@@ -1,0 +1,137 @@
+/* Styles the whole page */
+body {
+    /* Sets the font */
+    font-family: Arial, sans-serif;
+
+    /* Sets background */
+    background-color: #f2f2f2;
+
+    /* Uses Flexbox */
+    display: flex;
+
+    /* Centers horizontally */
+    justify-content: center;
+
+    /* Centers vertically */
+    align-items: center;
+
+    /* Uses the full screen height */
+    min-height: 100vh;
+}
+
+/* Styles the registration box */
+.register-container {
+    /* Sets width */
+    width: 350px;
+
+    /* Sets background */
+    background-color: white;
+
+    /* Adds internal spacing */
+    padding: 30px;
+
+    /* Rounds corners */
+    border-radius: 10px;
+
+    /* Adds shadow */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styles heading */
+h1 {
+    /* Centers heading */
+    text-align: center;
+
+    /* Adds bottom spacing */
+    margin-bottom: 8px;
+}
+
+/* Styles paragraph */
+p {
+    /* Centers text */
+    text-align: center;
+
+    /* Sets text color */
+    color: #666;
+}
+
+/* Styles labels */
+label {
+    /* Makes label occupy its own line */
+    display: block;
+
+    /* Adds top spacing */
+    margin-top: 15px;
+
+    /* Adds bottom spacing */
+    margin-bottom: 5px;
+
+    /* Makes label bold */
+    font-weight: bold;
+}
+
+/* Styles inputs */
+input {
+    /* Uses complete container width */
+    width: 100%;
+
+    /* Adds inside spacing */
+    padding: 10px;
+
+    /* Makes box sizing predictable */
+    box-sizing: border-box;
+
+    /* Adds border */
+    border: 1px solid #ccc;
+
+    /* Rounds corners */
+    border-radius: 5px;
+}
+
+/* Styles register button */
+button {
+    /* Uses complete width */
+    width: 100%;
+
+    /* Adds inside spacing */
+    padding: 12px;
+
+    /* Adds top spacing */
+    margin-top: 20px;
+
+    /* Removes border */
+    border: none;
+
+    /* Sets background */
+    background-color: #222;
+
+    /* Sets text color */
+    color: white;
+
+    /* Rounds corners */
+    border-radius: 5px;
+
+    /* Shows pointer cursor */
+    cursor: pointer;
+}
+
+/* Styles the message */
+#message {
+    /* Adds top spacing */
+    margin-top: 15px;
+
+    /* Makes message bold */
+    font-weight: bold;
+}
+
+/* Styles links */
+a {
+    /* Centers the link */
+    display: block;
+
+    /* Adds top spacing */
+    margin-top: 15px;
+
+    /* Centers text */
+    text-align: center;
+}
