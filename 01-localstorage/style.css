@@ -1,0 +1,104 @@
+/* Selects every element on the page */
+* {
+    /* Removes the browser's default outer spacing */
+    margin: 0;
+
+    /* Removes the browser's default inner spacing */
+    padding: 0;
+
+    /* Makes width calculations easier */
+    box-sizing: border-box;
+}
+
+/* Styles the entire body */
+body {
+    /* Sets the font */
+    font-family: Arial, sans-serif;
+
+    /* Gives the page a light background */
+    background-color: #f2f2f2;
+
+    /* Uses Flexbox */
+    display: flex;
+
+    /* Centers content horizontally */
+    justify-content: center;
+
+    /* Centers content vertically */
+    align-items: center;
+
+    /* Makes the body at least the height of the screen */
+    min-height: 100vh;
+}
+
+/* Styles the main container */
+.container {
+    /* Sets the width */
+    width: 400px;
+
+    /* Sets the background */
+    background-color: white;
+
+    /* Adds space inside */
+    padding: 40px;
+
+    /* Rounds the corners */
+    border-radius: 10px;
+
+    /* Adds a shadow */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    /* Centers the text */
+    text-align: center;
+}
+
+/* Styles the heading */
+h1 {
+    /* Adds space below the heading */
+    margin-bottom: 10px;
+}
+
+/* Styles the paragraph */
+p {
+    /* Changes the text color */
+    color: #666;
+
+    /* Adds space below */
+    margin-bottom: 25px;
+}
+
+/* Styles the button container */
+.buttons {
+    /* Uses Flexbox */
+    display: flex;
+
+    /* Adds space between buttons */
+    gap: 10px;
+
+    /* Centers the buttons */
+    justify-content: center;
+}
+
+/* Styles both links */
+.buttons a {
+    /* Removes the default underline */
+    text-decoration: none;
+
+    /* Sets text color */
+    color: white;
+
+    /* Sets background color */
+    background-color: #222;
+
+    /* Adds inside spacing */
+    padding: 12px 25px;
+
+    /* Rounds corners */
+    border-radius: 5px;
+}
+
+/* Changes button appearance when mouse is over it */
+.buttons a:hover {
+    /* Changes background color */
+    background-color: #444;
+}
